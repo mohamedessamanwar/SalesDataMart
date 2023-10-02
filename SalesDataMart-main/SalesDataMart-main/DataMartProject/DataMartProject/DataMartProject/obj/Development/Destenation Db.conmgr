@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Destenation Db"
+  DTS:DTSID="{8D930827-ACA7-440D-8FE6-EF512331CDC4}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=AW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-DataMartProject-{8D930827-ACA7-440D-8FE6-EF512331CDC4}LocalHost.AW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
